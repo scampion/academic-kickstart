@@ -1,4 +1,4 @@
 ---
-title: PORTFOLIO
+title: Softwares
 description: 'Portfolio Section'
 ---

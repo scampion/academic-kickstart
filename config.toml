@@ -81,19 +81,23 @@ pygmentsCodeFences=true
 #  url = "/about/"
 #  weight = -120
 
-#[[menu.main]]
-#  identifier = "portfolio"
-#  name = "Portfolio"
-#  title = "Portfolio"
-#  url = "/portfolio/"
-#  weight = -110
-#
+
 [[menu.main]]
   identifier = "blog"
-  name = "O(ARM Hexætera)"
+  name = "Blog : O(ARM Hexætera)"
   title = "Blog section"
   url = "/post/"
   weight = 100
+
+
+[[menu.main]]
+  identifier = "portfolio"
+  name = "Softwares"
+  title = "Softwares"
+  url = "/portfolio/"
+  weight = -110
+
+
 
 #
 #[[menu.main]]
