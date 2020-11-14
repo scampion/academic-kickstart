@@ -1,7 +1,122 @@
-# Wowchemy Website Builder
-# https://wowchemy.com
+baseURL = "http://example.org/"
+
+title = "Sebastien Campion - Personal Website"
+theme = "personal-web"
+
+[en]
+  languageCode = "en-us"
+
+
+copyright="© Sebastien Campion"
+googleAnalytics = ""
+enableEmoji=true
+enableRobotsTXT=true
+pygmentsUseClasses=true
+pygmentsCodeFences=true
+
+[params.intro]
+  main = "Sebastien Campion"
+  sub = "Research Software Engineer"
+
+[params.main]
+  latestPublishHeader = "My Latest Project"
+
+[taxonomies]
+  design = "designs"
+  tech = "techs"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+  breadcrumb = true
+  accentColor = "#FD3519"
+  mainSections = ['portfolio'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
+
+[params.notFound]
+  gopher = "/images/gopher.png" # checkout https://gopherize.me/
+  h1 = 'Bummer!'
+  p = "It seems that this page doesn't exist."
+
+[params.sections]
+  # Define how your sections will be called
+  # when automatically pulled. For instance in the 404 page
+  post = "article"
+  portfolio = "project"
+
+[params.sidebar]
+  backgroundImage = '' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
+  gradientOverlay = 'rgba(0,0,0,0),rgba(0,0,0,0.6)' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
+  logo = "/images/sebastien_campion.png" # - default "/images/edna-west.jpg"
+[params.assets]
+  favicon = ""
+  customCSS = ""
+
+# <span>Photo by <a href="https://unsplash.com/@matteopetrani?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Matteo Petrani</a> on <a href="https://unsplash.com/s/photos/sailboat?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+
+[params.social]
+  github = "https://github.com/scampion"
+  twitter = "https://twitter.com/sebcampion"
+  linkedin = "https://www.linkedin.com/in/sebastien-campion/"
+#  medium = "https://medium.com/"
+#  codepen = "https://codepen.io/"
+#  facebook = "https://www.facebook.com/"
+#  youtube = "https://www.youtube.com/"
+#  instagram = "https://www.instagram.com/"
+#  gitlab = "https://gitlab.com/"
+  keybase = "https://keybase.io/scampion/"
+
+[params.contact]
+  email = "sebastien.campion@pm.me"
+  text= "sebastien.campion@pm.me <br> matrix id : @scamp:matrix.org <br> GPG: 02C8 4670 9B73 29E9 6D3A 8C03 EBC8 134F 7D1D 043C" # text of the contact link in the sidebar. If email params.contact.email is defined
+
+
+[menu]
+
+#[[menu.main]]
+#  identifier = "about"
+#  name = "About"
+#  title = "About section"
+#  url = "/about/"
+#  weight = -120
+
+#[[menu.main]]
+#  identifier = "portfolio"
+#  name = "Portfolio"
+#  title = "Portfolio"
+#  url = "/portfolio/"
+#  weight = -110
 #
-# The presence of this file is for compatibility with Blogdown and Forestry.
-# If you are not using those tools, this file may be deleted.
+[[menu.main]]
+  identifier = "blog"
+  name = "O(ARM Hexætera)"
+  title = "Blog section"
+  url = "/post/"
+  weight = 100
+
 #
-# The actual configuration files are stored in the `config/_default/` folder.
+#[[menu.main]]
+#  identifier = "softwares"
+#  name = "Softwares"
+#  title = "Softwares section"
+#  url = "/SOFTWARES/"
+#  weight = -100
+
+
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
