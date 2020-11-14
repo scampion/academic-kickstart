@@ -1,6 +1,6 @@
 [build]
   command = "hugo --gc --minify -b https://www.scamp.fr"
-  publish = "public"
+  publish = "/"
 
 [build.environment]
   HUGO_VERSION = "0.78.1"
