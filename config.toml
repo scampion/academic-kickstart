@@ -1,4 +1,4 @@
-baseURL = "."
+baseURL = ""
 
 title = "Sebastien Campion - Personal Website"
 theme = "personal-web"
@@ -88,7 +88,6 @@ pygmentsCodeFences=true
   title = "Blog section"
   url = "/post/"
   weight = 100
-
 
 [[menu.main]]
   identifier = "portfolio"
