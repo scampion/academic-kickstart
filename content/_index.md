@@ -4,10 +4,12 @@ description: Home page project
 images: ["/images/sample.jpg"]
 ---
 
-Research Software Engineer 
+I save in the [Software portfolio](/portfolio "Software portfolio") my main developments. 
 
+In the [O(ARM Hexætera) Blog](/post "O(ARM Hexætera) Blog"), you will various technological posts and memos.
+ 
 
-You can download by CV in PDF [here](sebastien_campion_resume.pdf)
+You can download my CV in PDF [here](sebastien_campion_resume.pdf)
 
 
 ------------------------------------------------------------------------------------------------------------------------
