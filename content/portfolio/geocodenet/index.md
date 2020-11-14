@@ -41,7 +41,7 @@ Into geographic coordinate, longitude and latitude :
 When the address are misspelled or contain error, it's much more difficult to find coordinate. 
 You may also want to transform address into linear values in order to use it in another machine learning process.
 
-We our previous exemple, it could be something like that: 
+With our previous exemple, it could be something like that: 
 
     Rte du trepot saint-valery / somme
     
@@ -54,7 +54,6 @@ Xiang Zhang, Junbo Zhao, Yann LeCun. [Character-level Convolutional Networks for
 
 We will modify the neural network to learn multi-output regression instead of classification. 
 
-/!\ Not yet implemented
 
 We will also augmented the train dataset by added, synthetically generate as many, random permutations:
 - Character substitution (using nearby characters on the keyboard)
@@ -62,6 +61,6 @@ We will also augmented the train dataset by added, synthetically generate as man
 - Transposition
 - Duplication
 
-
+This step of learn on augmented data is not yet implemented
 
 <a href="https://colab.research.google.com/github/scampion/geocodenet/blob/main/geocodenet.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
