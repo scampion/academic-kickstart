@@ -15,11 +15,53 @@ projectUrl: https://github.com/scampion/geocodenet
 #  text: Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin
 ---
 
-#This would be a description of your sample project. You can add any content you'd like.
+### Cite as:   
 
-#Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-#tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-#quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-#consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-#cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-#proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Sebastien Campion. (2020, November 14). GeocodeNet (Version 1.0.0). Zenodo. http://doi.org/10.5281/zenodo.4273715
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4273715.svg)](https://doi.org/10.5281/zenodo.4273715)
+
+
+    /!\ Work in progress, Bi-directionnal RNN network must be evaluate 
+
+## Objective 
+
+A geocode operation is a process to translate a geographic entity in a code. 
+
+For example, we want to translate this french address : 
+
+    Route du Tréport 80230 Saint-Valery-sur-Somme
+    
+Into geographic coordinate, longitude and latitude : 
+
+    47,0.504549603611111 0.7787510938888894
+    
+## Issue 
+
+When the address are misspelled or contain error, it's much more difficult to find coordinate. 
+You may also want to transform address into linear values in order to use it in another machine learning process.
+
+We our previous exemple, it could be something like that: 
+
+    Rte du trepot saint-valery / somme
+    
+
+## Character Convolutions Neural Network to the rescue
+
+To solve that issue, we will use the Character-level Convolutional Networks for Text Classification detailed here : 
+
+Xiang Zhang, Junbo Zhao, Yann LeCun. [Character-level Convolutional Networks for Text Classification](http://arxiv.org/abs/1509.01626). NIPS 2015
+
+We will modify the neural network to learn multi-output regression instead of classification. 
+
+/!\ Not yet implemented
+
+We will also augmented the train dataset by added, synthetically generate as many, random permutations:
+- Character substitution (using nearby characters on the keyboard)
+- Deletion
+- Transposition
+- Duplication
+
+
+
+<a href="https://colab.research.google.com/github/scampion/geocodenet/blob/main/geocodenet.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
