@@ -1,4 +1,4 @@
-baseURL = "https://www.scamp.fr/"
+baseURL = "."
 
 title = "Sebastien Campion - Personal Website"
 theme = "personal-web"
