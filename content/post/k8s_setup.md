@@ -8,7 +8,7 @@ publishDate: "2019-05-02T19:25:30+02:00"
 
 ![k8s](../images/k8s.png)
 
-In this memo, I detail, how to setup a Kubernetes cluster with Træfik as Ingress controller.
+In this memo, I detail how to setup a Kubernetes cluster with Træfik as Ingress controller.
 
 
 ## Setup the cluster

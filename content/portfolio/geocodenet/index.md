@@ -38,7 +38,7 @@ Into geographic coordinate, longitude and latitude :
     
 ## Issue 
 
-When the address are misspelled or contain error, it's much more difficult to find coordinate. 
+When the address is misspelled or contain error, it's much more difficult to find coordinate. 
 You may also want to transform address into linear values in order to use it in another machine learning process.
 
 With our previous exemple, it could be something like that: 
@@ -55,7 +55,7 @@ Xiang Zhang, Junbo Zhao, Yann LeCun. [Character-level Convolutional Networks for
 We will modify the neural network to learn multi-output regression instead of classification. 
 
 
-We will also augmented the train dataset by added, synthetically generate as many, random permutations:
+We will also augment the train dataset by added, synthetically generate as many, random permutations:
 - Character substitution (using nearby characters on the keyboard)
 - Deletion
 - Transposition
