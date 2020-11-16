@@ -6,7 +6,7 @@ images: ["/images/sample.jpg"]
 
 I save in the [Software portfolio](/portfolio "Software portfolio") my main developments. 
 
-In the [O(ARM Hexætera) Blog](/post "O(ARM Hex æ Tera) Blog"), you will find various technological posts and memos in French or English.
+In the [O(ARM Hex æ tera) Blog](/post "O(ARM Hex æ Tera) Blog"), you will find various technological posts and memos in French or English.
 
  
 
