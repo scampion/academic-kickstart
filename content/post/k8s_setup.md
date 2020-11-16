@@ -3,7 +3,7 @@ title: Kubernetes setup
 image: "../images/k8s.png"
 description: A short memo to setup a k8s cluster
 date: "2019-05-02T19:25:30+02:00"
-publishDate: "2019-05-02T19:25:30+02:00"
+publishDate: "2019-01-01T19:05:00+02:00"
 ---
 
 ![k8s](../images/k8s.png)
