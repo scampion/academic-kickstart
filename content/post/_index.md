@@ -1,5 +1,5 @@
 ---
-title: O(ARM Hexætera)
+title: O(ARM Hex æ Tera)
 description: 'Posts Section'
 ---
 
