@@ -43,7 +43,7 @@ With our previous exemple, it could be something like that:
 
     Rte du trepot saint-valery / somme
     
-## NGrams, TF-IDF and Approximate Nearest Neighbor
+## NGrams, TF-IDF, MiniBatchKMeans and Approximate Nearest Neighbor
 
 In our case we will use trigrams of characters to solve misspelling address and more generally robustifying 
 the search index.  
@@ -52,7 +52,10 @@ the search index.
 TFIDF on ngrams will allow to select most relevant ngrams. In our case, the size of the vocabulary will be 5000
 and the tfidf threshold 0.2
 
-Since we are using high dimensional vectors, we will use the efficient implementation on AAN [Annoy](https://github.com/spotify/annoy)
+Since we are using high dimensional and sparce vectors, we will reduce dimension with [MiniBatchKMeans](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.MiniBatchDictionaryLearning.html#sklearn.decomposition.MiniBatchDictionaryLearning) 
+
+Lastly, we will use the efficient implementation on AAN [Annoy](https://github.com/spotify/annoy) to index them
+ 
 
  
 
