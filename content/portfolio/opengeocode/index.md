@@ -43,19 +43,16 @@ With our previous exemple, it could be something like that:
 
     Rte du trepot saint-valery / somme
     
-## NGrams, TF-IDF, MiniBatchKMeans and Approximate Nearest Neighbor
+## NGrams, TF-IDF, Truncated Singular Value Decomposition and Nearest Neighbors
 
 In our case we will use trigrams of characters to solve misspelling address and more generally robustifying 
-the search index.  
-`computer` will be translate in `com`, `omp`, `mpu`, `put`, `ute`, `ter`
+the search index.  `computer` will be translate in `com`, `omp`, `mpu`, `put`, `ute`, `ter`
 
-TFIDF on ngrams will allow to select most relevant ngrams. In our case, the size of the vocabulary will be 5000
-and the tfidf threshold 0.2
+TDIDF will produce a sparse vector representation of the address. 
+To speed compute result in search operation, you can use a Truncated Singular Value Decomposition appropriate for 
+these sparse tfidf matrix. 
 
-Since we are using high dimensional and sparce vectors, we will reduce dimension with [MiniBatchKMeans](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.MiniBatchDictionaryLearning.html#sklearn.decomposition.MiniBatchDictionaryLearning) 
-
-Lastly, we will use the efficient implementation on AAN [Annoy](https://github.com/spotify/annoy) to index them
- 
+Lastly a Nearest Neighbour with ball tree algorithm provide the most similar values.
 
  
 
