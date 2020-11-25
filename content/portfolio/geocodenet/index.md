@@ -24,6 +24,7 @@ Sebastien Campion. (2020, November 14). GeocodeNet (Version 1.0.0). Zenodo. http
 
     /!\ Work in progress, Bi-directionnal RNN network must be evaluate 
 
+
 ## Objective 
 
 A geocode operation is a process to translate a geographic entity in a code. 
@@ -64,3 +65,8 @@ We will also augment the train dataset by added, synthetically generate as many,
 This step of learn on augmented data is not yet implemented
 
 <a href="https://colab.research.google.com/github/scampion/geocodenet/blob/main/geocodenet.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+Nota bene: An other approach based on ngrams, TF-IDF, dimension reduction with T-SVD and ANN is also available in the 
+[opengeocode project](https://github.com/scampion/opengeocode/blob/master/tfidf_nn.py)
+
+
