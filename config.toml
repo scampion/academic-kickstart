@@ -64,9 +64,10 @@ pygmentsCodeFences=true
 #  facebook = "https://www.facebook.com/"
 #  youtube = "https://www.youtube.com/"
 #  instagram = "https://www.instagram.com/"
-#  gitlab = "https://gitlab.com/"
   keybase = "https://keybase.io/scampion/"
-
+  tech = "./index.xml"
+  stackoverflow = "https://stackoverflow.com/users/14611490/s%c3%a9bastien-campion"
+  
 [params.contact]
   email = "sebastien.campion@pm.me"
   text= "sebastien.campion@pm.me <br> matrix id : @scamp:matrix.org <br> GPG: 02C8 4670 9B73 29E9 6D3A 8C03 EBC8 134F 7D1D 043C" # text of the contact link in the sidebar. If email params.contact.email is defined

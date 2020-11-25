@@ -8,7 +8,6 @@ I save in the [Software portfolio](/portfolio "Software portfolio") my main deve
 
 In the [O(ARM Hex æ tera) Blog](/post "O(ARM Hex æ Tera) Blog"), you will find various technological posts and memos in French or English.
 
- 
 
 You can download my CV in PDF [here](sebastien_campion_resume.pdf)
 
@@ -22,6 +21,9 @@ Publications:
 - Efficient Mining of Repetitions in Large-Scale TV Streams with Product Quantization Hashing - October 2012 ECCV Workshops 
 - Texmix: An automatically generated news navigation portal -June 2012
 - Service Platform for Converged Interactive Broadband Broadcast and Cellular Wireless - April 2007 IEEE Transactions on Broadcasting
+
+
+NB: [The RSS Link of this blog](./index.html)
 
 ------------------------------------------------------------------------------------------------------------------------
 
