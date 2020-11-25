@@ -48,6 +48,8 @@ pygmentsCodeFences=true
   backgroundImage = '' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
   gradientOverlay = 'rgba(0,0,0,0),rgba(0,0,0,0.6)' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
   logo = "/images/sebastien_campion.png" # - default "/images/edna-west.jpg"
+#  logo = "./images/portrait.png" # - default "/images/edna-west.jpg"
+
 [params.assets]
   favicon = ""
   customCSS = ""
