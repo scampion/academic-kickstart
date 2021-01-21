@@ -1,7 +1,7 @@
 ---
 title: "[ORQ]chestration of [AL]gorithms" 
 description: courses given in master degree on machine learning for multimedia content 
-#date: "2019-05-02T19:47:09+02:00"
+date: "2018-05-02T19:47:09+02:00"
 jobDate: 2018
 work: [large-scale computing, docker, jupyter]
 techs: [large-scale computing, docker, jupyter]
