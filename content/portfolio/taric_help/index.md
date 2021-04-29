@@ -7,7 +7,7 @@ work: [deeplearning, word2vec, taric]
 techs: [deeplearning, fasttext]
 #designs: [Photoshop]
 thumbnail: taric_help/screen.png
-projectUrl: https://scampion.github.io/taric_help/
+projectUrl: https://scampion.github.io/taric_helper/
 ---
 
 
